@@ -1,2 +1,2 @@
 # cssMemSlider
-https://github.com/pashulia/cssMemSlider.git
+https://pashulia.github.io/cssMemSlider/cssMemSlider/index.html
