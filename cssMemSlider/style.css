@@ -6,9 +6,7 @@ body {
 
 * {
     box-sizing: border-box;
-    color: red;
     font-family: "Times New Roman", Times, serif;
-    -ms-overflow-style: none;
 }
 
 *::-webkit-scrollbar {
@@ -24,6 +22,12 @@ body {
     border: none;
 }
 
+.container {
+    background-color: #25282a;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 ol, li {
     list-style: none;
     margin: 0;
@@ -33,7 +37,6 @@ ol, li {
 .carousel {
     position: relative;
     padding-top: 75%;
-    perspective: 100px;
 }
 
 .carousel_viewport {
@@ -45,6 +48,7 @@ ol, li {
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    padding-bottom: 3rem;
 }
 
 .carousel_slide1 {
@@ -52,7 +56,7 @@ ol, li {
     flex: 0 0 100%;
     width: 100%;
     background-size: 100% 100%;
-    border-radius: 5px;
+    border-radius: 1rem;
     background-image: url("assets/img/img1.jpeg");
 } 
 
@@ -61,7 +65,7 @@ ol, li {
     flex: 0 0 100%;
     width: 100%;
     background-size: 100% 100%;
-    border-radius: 5px;
+    border-radius: 1rem;
     background-image: url("assets/img/img2.jpeg");
 }
 
@@ -70,16 +74,27 @@ ol, li {
     flex: 0 0 100%;
     width: 100%;
     background-size: 100% 100%;
-    border-radius: 5px;
+    border-radius: 1rem;
     background-image: url("assets/img/img3.jpeg");
+}
+
+.carousel_text {
+    position: absolute;
+    bottom: -3rem;
+    width: 50%;
+    color: #f30606;
+}
+
+#carousel_slide2 .carousel_text, #carousel_slide4 .carousel_text {
+    bottom: -34px;
 }
 
 .carousel_navigation {
     position: absolute;
     right: 0;
-    bottom: -40px;
+    bottom: 1rem;
     text-align: right;
-    background-color: #fff;
+    background-color: #25282a;;
 }
 
 .carousel_navigation-list,
