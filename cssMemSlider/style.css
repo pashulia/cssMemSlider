@@ -6,6 +6,8 @@ body {
 
 * {
     box-sizing: border-box;
+    color: red;
+    font-family: "Times New Roman", Times, serif;
 }
 
 ol, li {
@@ -38,3 +40,28 @@ ol, li {
     border-radius: 5px;
     background-image: url("assets/img/img1.jpeg");
 } 
+
+.carousel_navigation {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    text-align: right;
+    background-color: #fff;
+}
+
+.carousel_navigation-list,
+.carousel_navigation-item {
+    display: inline-block;
+}
+
+.carousel_navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #71abff;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+}
