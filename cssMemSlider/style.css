@@ -158,3 +158,23 @@ ol, li {
         scroll-snap-align: center;
     }
 }
+
+@media (max-width: 600px) {
+    html{
+        font-size: 1rem;
+    }
+    .carousel_text{
+        bottom: -4rem !important;
+        width: 100%;
+    }
+    .carousel_navigation{
+        height: 1.5rem;
+        bottom: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+    .carousel_viewport{
+        padding-bottom: 4rem;
+    }
+
+}
