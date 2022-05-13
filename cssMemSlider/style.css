@@ -114,6 +114,10 @@ ol, li {
     transition: transform 0.1s;
 }
 
+.carousel_navigation-button:hover {
+    background-color: #eff3f8;
+}
+
 @keyframes tonext {
     75% {
         left: 0;
